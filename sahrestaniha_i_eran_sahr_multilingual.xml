@@ -15,7 +15,7 @@
                 <seg xml:id="he_1" xml:lang="en" corresp="hp_1">In the name of the beneficient bountiful Creator</seg> </l>
 
             <l n="2">
-                <seg xml:id="hp_2" xml:lang="pal" corresp="he_2">pad nām ud nērōg ud ayārīh ī dādār Ohrmazd ǰadag ī nēk.</seg>
+                <seg xml:id="hp_2" xml:lang="pal" corresp="he_2">pad nām ud nērōg ud ayārīh ī dādār <persName type="deity">Ohrmazd</persName> ǰadag ī nēk.</seg>
                 <seg xml:id="he_2" xml:lang="en" corresp="hp_2">In the name and power and righteousness of the Creator Ohrmazd and good omen.</seg></l>
         </lg>
     </head>
@@ -25,8 +25,10 @@
             <seg xml:id="p_1" xml:lang="pal" corresp="e_1"> šahr<interp>est</interp>ānīhā ī andar zamīg ī <place><placeName type="mega-region">Ērān-šahr</placeName></place> kerd estēd ǰud ǰud būm kū kadām sar-xwadāy kerd pad gōkān abar ēn ayādgār nibišt estēd.</seg>
             <seg xml:id="e_1" xml:lang="en" corresp="p_1">The cities in the land of Ērān-šahr which have been built in different days, where and which overlord made them is written in detail in this memoir.</seg></s>
         
+        <direction orig="In the Eastern direction" reg="quarter of the northeast"/>
+        
         <s n="2">
-            <seg xml:id="p_2" xml:lang="pal" corresp="e_2"><place><geogName type="direction">pad kust ī xwarāsān</geogName></place> <!--Isn't this Khorasan?--> <place><placeName type="city">samarkand</placeName></place> šahrestān <persName><forename>kay-us</forename> ī <addName type="patronymic">kawādān</addName></persName> bun fragand <persName><forename>siyāwaxš</forename> ī <addName type="patronymic">kay-usān</addName></persName> bē frazāmēnīd.</seg>
+            <seg xml:id="p_2" xml:lang="pal" corresp="e_2"><place><geogName type="direction" subtype="quarter of the northeast">pad kust ī xwarāsān</geogName></place> <!--Isn't this Khorasan?--> <place><placeName type="city">samarkand</placeName></place> šahrestān <persName><forename>kay-us</forename> ī <addName type="patronymic">kawādān</addName></persName> bun fragand <persName><forename>siyāwaxš</forename> ī <addName type="patronymic">kay-usān</addName></persName> bē frazāmēnīd.</seg>
             <seg xml:id="e_2" xml:lang="en" corresp="p_2">In the Eastern direction, the foundation of the city of Samarkand was laid by Kāus, the son of Kawād. Sīyāwaxš, the son of Kāus completed it.</seg> </s>
         
         <s n="3">
@@ -35,19 +37,19 @@
         <!--how to properly reference the dads? I decided on forename and addName-->
         
         <s n="4">
-            <seg xml:id="p_4" xml:lang="pal" corresp="e_4">pas <persName>Zardušt</persName> dēn āwurd az framān <interp>ī</interp> <persName>wištāsp-šā</persName> <num value="1200">hazār ud dō-sad</num> fragard pad dēn-dibīrīh pad taxtagīhā <interp>ī</interp> zarrēn kand ud nibišt ud pad ganǰ<interp>ī</interp> ān <place><placeName type="fire-temple">ātaxš</placeName></place> nihād.</seg> 
+            <seg xml:id="p_4" xml:lang="pal" corresp="e_4">pas <persName type="prophet">Zardušt</persName> dēn āwurd az framān <interp>ī</interp> <persName><roleName type="king">wištāsp-šā</roleName></persName> <num value="1200">hazār ud dō-sad</num> <term type="chapter">fragard</term> pad dēn-dibīrīh pad taxtagīhā <interp>ī</interp> zarrēn kand ud nibišt ud pad ganǰ<interp>ī</interp> ān <place><placeName type="fire-temple">ātaxš</placeName></place> nihād.</seg> 
             <seg xml:id="e_4" xml:lang="en" corresp="p_4">Then Zoroaster brought the Religion. By the order of king Wištāsp 1200 fragard (chapters) in the script of religious scripture were engraved on golden tablets and written and deposited in the treasury of that fire-(temple).</seg></s>
         
         <s n="5">
-            <seg xml:id="p_5" xml:lang="pal" corresp="e_5">ud pas gizistag <persName>skandar</persName> sōxt ud andar ō <place><geogName type="sea">drayāb</geogName></place> abgand.</seg>
+            <seg xml:id="p_5" xml:lang="pal" corresp="e_5">ud pas <persName><addName type="epithet" subtype="pejorative">gizistag</addName> <forename>skandar</forename></persName> sōxt ud andar ō <place><geogName type="water" ref="zarafšān-river">drayāb</geogName></place> abgand.</seg>
             <seg xml:id="e_5" xml:lang="en" corresp="p_5">And then the accursed Alexander burnt and threw it into the sea <!--which sea?-->.</seg></s>
-        
+        SHAHr
         <s n="6">
-            <seg xml:id="p_6" xml:lang="pal" corresp="e_6"><place><placeName type="region">sugd</placeName></place> ī <num value="7">haft</num> <term type="administrative-unit">āšyān</term> u-š <num value="7">haft</num> <roleName type="lord">āšyānīh</roleName> ēd kū <num value="7">haft</num> <term type="administrative-unit">āšyān</term> andar būd: ēk ān ī <persName>J̌am</persName> ud ēk <interp>ān</interp> ī <persName>azdahāg</persName> ud ēk ān<interp>ī</interp> <persName>Frēdōn</persName> ud ēk ān ī <persName>manūčihr</persName> ud ēk ān ī <persName>kay-us</persName> ud ēk ān ī <persName>kay-husrō</persName> ud ēk ān ī <persName>luhrāsp</persName> ud ēk ān ī <persName>wištāsp-šā</persName>.</seg>
+            <seg xml:id="p_6" xml:lang="pal" corresp="e_6"><place><placeName type="region">sugd</placeName></place> ī <num value="7">haft</num> <term type="administrative-unit">āšyān</term> u-š <num value="7">haft</num> <roleName type="lord">āšyānīh</roleName> ēd kū <num value="7">haft</num> <term type="administrative-unit">āšyān</term> andar būd: ēk ān ī <persName>J̌am</persName> ud ēk <interp>ān</interp> ī <persName>azdahāg</persName> ud ēk ān<interp>ī</interp> <persName>Frēdōn</persName> ud ēk ān ī <persName>manūčihr</persName> ud ēk ān ī <persName>kay-us</persName> ud ēk ān ī <persName>kay-husrō</persName> ud ēk ān ī <persName>luhrāsp</persName> ud ēk ān ī <persName><roleName type="king">wištāsp-šā</roleName></persName>.</seg>
             <seg xml:id="e_6" xml:lang="en" corresp="p_6">Sogdiana (has) seven abodes, its having seven abodes in it means that there were seven Lords in it. One belonging to Jam and one to Aži Dahāg and one to Frēdōn and one to Manūčihr and one to Kāus and one to Lohrāsp and one to king Wištāsp.</seg></s>
         
         <s n="7">
-            <seg xml:id="p_7" xml:lang="pal" corresp="e_7">pas gizistag <persName>frāsiyāg</persName> ī <place><placeName type="region">tūr</placeName></place> harw ēk nišēmag ī šāhān uzdes-zār-ēw bašn padiš kdrd.</seg>
+            <seg xml:id="p_7" xml:lang="pal" corresp="e_7">pas <persName><addName type="epithet" subtype="pejorative">gizistag</addName> <forename>frāsiyāg</forename> ī <addName type="origin"><rs type="ethnic">tūr</rs></addName></persName> harw ēk nišēmag ī šāhān uzdes-zār-ēw bašn padiš kard.</seg> <!--which word is idol temple and heathen temple-->
             <seg xml:id="e_7" xml:lang="en" corresp="p_7">Then the accursed Frāsiyāk, the Tūrānian, made seats for each of the demons, and an idol temple and a heathen temple.</seg></s>
         
         <s n="8">
@@ -55,7 +57,7 @@
             <seg xml:id="e_8" xml:lang="en" corresp="p_8">In the brilliant Balx, the city of Nawāzag was built by Spandyād, the son of Wištāsp.</seg></s>
         
         <s n="9">
-            <seg xml:id="p_9" xml:lang="pal" corresp="e_9">u-š warzāwand ātaxš wahrām ānōh nišāst u-š nēzag ī xwēš ānōh bē zad u-š ō <persName>yabbū-xāgān</persName> ud <persName>sinǰēbīk-xāgān</persName> ud <persName>čōl xāgān</persName> ud <persName>wazurg-xān</persName> ud <persName>gōhram</persName> ud <persName>tuzāb</persName> ud <persName><forename>arzāsp</forename> ī <roleName type="king"><rs type="ethnic">xyōnān-šā</rs></roleName></persName> paygām frēstīd kū nēzag ī man bē nigerēd harw kē pad wēzišn ī ēn nēzag nigerēd čē andar ō <place><placeName type="mega-region">Ērān-šahr</placeName></place> dwārēd.</seg>
+            <seg xml:id="p_9" xml:lang="pal" corresp="e_9">u-š warzāwand <place><placeName type="fire-temple">ātaxš wahrām</placeName></place> ānōh nišāst u-š nēzag ī xwēš ānōh bē zad u-š ō <persName>yabbū-xāgān</persName> ud <persName>sinǰēbīk-xāgān</persName> ud <persName>čōl xāgān</persName> ud <persName>wazurg-xān</persName> ud <persName>gōhram</persName> ud <persName>tuzāb</persName> ud <persName><forename>arzāsp</forename> ī <roleName type="king"><rs type="ethnic">xyōnān-šā</rs></roleName></persName> paygām frēstīd kū nēzag ī man bē nigerēd harw kē pad wēzišn ī ēn nēzag nigerēd čē andar ō <place><placeName type="mega-region">Ērān-šahr</placeName></place> dwārēd.</seg>
             <seg xml:id="e_9" xml:lang="en" corresp="p_9">And he set the miraculous Wahrām fire there and struck his lance there and he sent a message to Yabbu Xāgān, Sinjēbik Xāgān, and Čōl Xāgān and the Great Xāgān and Gohram and Tuzāb and Arzāsp, the king of the Hayōns: “behold my lance, whoever beholds the movement of this lance is like they have rushed to Iran.”</seg></s>
         
         <s n="10">
@@ -67,7 +69,7 @@
             <seg xml:id="e_11" xml:lang="en" corresp="p_11">The city of Marv-rōd was built by Wahrām, the son of Yazdgerd.</seg></s>
         
         <s n="12">
-            <seg xml:id="p_12" xml:lang="pal" corresp="e_12">šahrestān ī <place><placeName type="city">marw</placeName></place> ud sahrestān<interp>ī</interp> <place><placeName type="city">harē</placeName></place> gizistag <persName><forename>skandar</forename> ī <addName type="origin"><rs type="ethnic">harōmīg</rs></addName></persName> kerd.</seg>
+            <seg xml:id="p_12" xml:lang="pal" corresp="e_12">šahrestān ī <place><placeName type="city">marw</placeName></place> ud sahrestān<interp>ī</interp> <place><placeName type="city">harē</placeName></place> <persName><addName type="epithet" subtype="pejorative">gizistag</addName> <forename>skandar</forename> ī <addName type="origin"><rs type="ethnic">harōmīg</rs></addName></persName> kerd.</seg>
             <seg xml:id="e_12" xml:lang="en" corresp="p_12">The city of Marv and the city of Herāt were built by the accursed Alexander the Roman.</seg></s>
         
         <s n="13">
@@ -79,7 +81,7 @@
             <seg xml:id="e_14" xml:lang="en" corresp="p_14">The city of Tūs was built by Tūs, the son of Nōdar, and (he) was the general for 900 years. After Tūs, the office of general came to Zarēr and from Zarēr to Bastūr and from Bastūr to Karzam.</seg></s>
         
         <s n="15">
-            <seg xml:id="p_15" xml:lang="pal" corresp="e_15">šahrestān ī <place><placeName type="city">nēw-šāpuhr</placeName></place> <persName><forename>šāpuhr</forename> ī <addname type="patronymic">ardašīrān</addname></persName> kerd pad ān gāh ka-š <persName><forename>pāhlēzag</forename> <interp>ī</interp> <addName type="ethnic">tūr</addName></persName> ōzad u-š pad ham gyāg šahrestān<interp>-ē</interp> framūd kerdan.</seg> 
+            <seg xml:id="p_15" xml:lang="pal" corresp="e_15">šahrestān ī <place><placeName type="city">nēw-šāpuhr</placeName></place> <persName><forename>šāpuhr</forename> ī <addname type="patronymic">ardašīrān</addname></persName> kerd pad ān gāh ka-š <persName><forename>pāhlēzag</forename> <interp>ī</interp> <addName type="origin"><rs type="ethnic">tūr</rs></addName></persName> ōzad u-š pad ham gyāg šahrestān<interp>-ē</interp> framūd kerdan.</seg> 
             <seg xml:id="e_15" xml:lang="en" corresp="p_15">The city of Nēwšābuhr was built by Šābuhr the son of Ardaxšīr. At that time when he killed the Tūrānian Pahlīzag, he ordered to build the city in the same place.</seg></s> <!--is pahlizag a person or role?-->
         
         <s n="16">
@@ -87,7 +89,7 @@
             <seg xml:id="e_16" xml:lang="en" corresp="p_16">The city of Qāyēn was built by Kay Lohrāsp, the father of Wištāsp.</seg></s>
         
         <s n="17">
-            <seg xml:id="p_17" xml:lang="pal" corresp="e_17">andar <place><placeName type="region">gurgān</placeName></place> šahrestān ī <place><placeName type="city">dahestān</placeName></place> xwānēnd <persName><forename>narsēh</forename> ī <addName type="ethnic">aškānān</addName></persName> kerd.</seg>
+            <seg xml:id="p_17" xml:lang="pal" corresp="e_17">andar <place><placeName type="region">gurgān</placeName></place> šahrestān ī <place><placeName type="city">dahestān</placeName></place> xwānēnd <persName><forename>narsēh</forename> ī <addName type="origin"><rs type="ethnic">aškānān</rs></addName></persName> kerd.</seg>
             <seg xml:id="e_17" xml:lang="en" corresp="p-17">In Gurgān, the city which they call Dahestān was built by Narseh, the Arsacid.</seg></s>
 
         <s n="18">
@@ -102,8 +104,10 @@
             <seg xml:id="p_20" xml:lang="pal" corresp="e_20">u-š frasp-ēw kē ē <measure num="180" unit="frasang">sad ud haštād frasang</measure> drahnāy ud <measure num="25" unit="šāh-ārešn">wīst <interp>ud</interp> panǰ šāh-ārešn</measure> bālā ē <measure num="180" unit="palace-gates">sad ud haštād dar kōšk<interp>ud</interp></measure> <place><placeName type="estate">dastgird</placeName></place> andar framūd kerdan.</seg>
             <seg xml:id="e_20" xml:lang="en" corresp="p_20">He ordered the establishment of a wall 180 farsang(s) long and 25 royal cubit(s) high, 180 palace gates and ordered in it the establishment of an estate.</seg></s>
         
+        <direction orig="In the Western direction" reg="quarter of the southwest"/>
+        
         <s n="21">
-            <seg xml:id="p_21" xml:lang="pal" corresp="e_21"><place><geogName type="direction">pad kust<interp>ī</interp> xwarwarān</geogName></place> <!--what is xwarwarān--> šahrestān ī <place><placeName type="city">tīsifōn</placeName></place> az framān ī <persName><forename>tūs</forename> <addName type="patronymic">warāzag</addName> ī <relation type="family">gēwagān</relation></persName> kerd.</seg>
+            <seg xml:id="p_21" xml:lang="pal" corresp="e_21"><place><geogName type="direction" subtype="quarter of the southwest">pad kust<interp>ī</interp> xwarwarān</geogName></place> <!--what is xwarwarān--> šahrestān ī <place><placeName type="city">tīsifōn</placeName></place> az framān ī <persName><forename>tūs</forename> <addName type="patronymic">warāzag</addName> ī <relation type="family">gēwagān</relation></persName> kerd.</seg>
             <seg xml:id="" xml:lang="" corresp="">In the Western direction, the city of Ctesiphon was built by the order of Tūs, the son of Warāz from the family of Gēw.</seg></s>
         
         <s n="22">
@@ -111,7 +115,7 @@
             <seg xml:id="e_22" xml:lang="en" corresp="p_22">The city of Nisibis was built by Warāzag the son of Gēw.</seg></s>
         
         <s n="23">
-            <seg xml:id="p_23" xml:lang="pal" corresp="e_23">šahrestān ī <place><placeName type="city">ōrhāy</placeName></place> <persName><forename>narsēh</forename> ī <addName type="patronymic">aškānān</addName></persName> kerd.</seg>
+            <seg xml:id="p_23" xml:lang="pal" corresp="e_23">šahrestān ī <place><placeName type="city">ōrhāy</placeName></place> <persName><forename>narsēh</forename> ī <addName type="origin"><rs type="ethnic">aškānān</rs></addName></persName> kerd.</seg>
             <seg xml:id="e_23" xml:lang="en" corresp="p_23">The city of Edessa was built by Narseh, the Arsacid.</seg></s>
         
         <s n="24">
@@ -119,11 +123,11 @@
             <seg xml:id="e_24" xml:lang="en" corresp="p_24">The city of Babylon was built by Bābēl during the reign of Jam. And he bound the planet Mercury there and he showed the seven planets and the twelve constellations and the eighth portions by sorcery to the Sun and to those below (mankind).</seg></s>
         
         <s n="25">
-            <seg xml:id="p_25" xml:lang="pal" corresp="e_25">šahrestān ī <place><placeName type="city">hērat</placeName></place> <persName><forename>šāpuhr</forename> ī <addName type="patronymic">ardašīrān</addName></persName> kerd u-š <persName><forename>mihr-zād</forename> ī <addName type="origin"><rs type="geographical">hērat</rs></addName> <roleName type="military-role">marz-bān</roleName></persName> pad <place><geogName type="persian-gulf">war ī <rs type="arabs">tāzīgān</rs></geogName></place> bē gumārd.</seg>
+            <seg xml:id="p_25" xml:lang="pal" corresp="e_25">šahrestān ī <place><placeName type="city">hērat</placeName></place> <persName><forename>šāpuhr</forename> ī <addName type="patronymic">ardašīrān</addName></persName> kerd u-š <persName><forename>mihr-zād</forename> ī <addName type="origin"><rs type="geographical">hērat</rs></addName> <roleName type="military-role">marz-bān</roleName></persName> pad <place><geogName type="water" ref="persian-gulf">war ī <rs type="ethnicity">tāzīgān</rs></geogName></place> bē gumārd.</seg>
             <seg xml:id="e_25" xml:lang="en" corresp="p_25">The city of Hīra was built by Šābuhr, the son of Ardaxšīr and he appointed Mihrzād the margrave of Hīra over the wall of the Arabs.</seg></s> 
         
         <s n="26">
-            <seg xml:id="p_26" xml:lang="pal" corresp="e_26">šahrestān ī <place><placeName type="city">hamadān</placeName></place> <persName><forename>yazdgird</forename> ī <addName type="patronymic">šāpuhrān</addName></persName> kerd kē-šān <persName><forename>yazdgird</forename> ī <addName type="nickname">dabar</addName></persName> xwānēnd.</seg>
+            <seg xml:id="p_26" xml:lang="pal" corresp="e_26">šahrestān ī <place><placeName type="city">hamadān</placeName></place> <persName><forename>yazdgird</forename> ī <addName type="patronymic">šāpuhrān</addName></persName> kerd kē-šān <persName type="nickname" ref="yazdgird ī šāpuhrān"><forename>yazdgird</forename> ī <addName type="epithet" subtype="praise">dabar</addName></persName> xwānēnd.</seg>
             <seg xml:id="e_26" xml:lang="en" corresp="p_26">The city of Hamadān was built by Yazdgird, the son of Šābuhr whom they call Yazdgird the rough.</seg></s>
         
         <s n="27">
@@ -154,12 +158,14 @@
             <seg xml:id="p_33" xml:lang="pal" corresp="e_33"><num value="24">wīst čahār</num> šahrestān andar zamīg <place><placeName type="region">šām</placeName></place> <interp>ud</interp> <place><placeName type="region">frīgā</placeName></place> ud <place><placeName type="city">kufah</placeName></place> ud <place><placeName type="city">makkah</placeName></place> ud <place><placeName type="city">madīnag</placeName></place> gāh kerd estēd ast <roleName type="king">šāhān šāh</roleName> ast <persName>kēsar</persName>.</seg>
             <seg xml:id="e_33" xml:lang="en" corresp="p_33">The 24 cities which were built in the land of Syria and Yemen and Africa and Kufa and Mecca and Medina, some were built by the King of Kings and (some built) by the Caesar.</seg></s>
         
+        <direction orig="In the Southern direction" reg="quarter of the southeast"/>
+        
         <s n="34">
-            <seg xml:id="p_34" xml:lang="pal" corresp="e_34"><place><geogName type="direction">pad kust nēmrōz</geogName></place> šahrestān ī <place><placeName type="city">kābul</placeName></place> <persName><forename>ardašīr</forename> ī <addName type="patronymic">spandyādān</addName></persName> kerd estēd.</seg>
+            <seg xml:id="p_34" xml:lang="pal" corresp="e_34"><place><geogName type="direction" subtype="quarter of the southeast">pad kust nēmrōz</geogName></place> šahrestān ī <place><placeName type="city">kābul</placeName></place> <persName><forename>ardašīr</forename> ī <addName type="patronymic">spandyādān</addName></persName> kerd estēd.</seg>
             <seg xml:id="e_34" xml:lang="en" corresp="p_34">In the Southern direction, the city of Kābul was built by Ardaxšīr, the son of Spandyād.</seg></s>
         
         <s n="35">
-            <seg xml:id="p_35" xml:lang="pal" corresp="e_35">šahrestān <place><placeName type="city">raxwat</placeName></place> <persName><forename>rahām</forename> ī <addName type="patronymic">gōdarzān</addName></persName> kerd pad ān gāh ka-š <persName>asp warz</persName>-<persName><nickname>bar</nickname> ī <forename>tūr</forename></persName> <!--not sure about this tag--> ōzad u-š <persName><forename>yabbū</forename>-<addName type="origin"><rs type="ethnic">xāgān</rs></addName></persName> az ānōh stō bē kerd.</seg>
+            <seg xml:id="p_35" xml:lang="pal" corresp="e_35">šahrestān <place><placeName type="city">raxwat</placeName></place> <persName><forename>rahām</forename> ī <addName type="patronymic">gōdarzān</addName></persName> kerd pad ān gāh ka-š <persName>asp warz</persName>-<persName><addName type="epithet" subtype="neutral">bar</addName> ī <forename>tūr</forename></persName> <!--not sure about this tag--> ōzad u-š <persName><forename>yabbū</forename>-<addName type="origin"><rs type="ethnic">xāgān</rs></addName></persName> az ānōh stō bē kerd.</seg>
             <seg xml:id="e_35" xml:lang="en" corresp="p_35">The city of Raxvat was built by Rahām, the son of Gōdarz, at that time when he, Aspwarz killed the manly Tūr, and harassed Yabbū the Xāgān from there.</seg></s> <!--is Tur a person or just a random person from Turan?-->
         
         <s n="36">
@@ -171,7 +177,7 @@
             <seg xml:id="e_37" xml:lang="en" corresp="p_37">The city of Frāh and the city of Zābul were built by Rustam, the king of Sīstān.</seg></s>
         
         <s n="38">
-            <seg xml:id="p_38" xml:lang="pal" corresp="e_38">šahrestān <place><placeName type="city">zarang</placeName></place> naxust gizistag <persName><forename>frāsiyāg</forename> ī <addName type="origin"><rs type="geographical">tūr</rs></addName></persName> kerd u-š warzāwand <place><placeName type="fire-temple">ātaxš karkōy</placeName></place> ānōh nišāst u-š <persName>manuščihr</persName> andar ō <place><geogName type="mountain-range">padišxwārgar</geogName></place> kerd u-š <persName>Spandarmad</persName> pad zanīh xwāst ud <persName>Spandarmad</persName> andar ō zamīg gumēxt šahrestān awērān kerd u-š <place><placeName ref="ātaxš karkōy">ātaxš</placeName></place> afsārd ud pas <persName><forename>kay-hu-sraw</forename> <addName type="patronymic">siyāwašān</addName></persName> šahrestān abāz kerd u-š <place><placeName type="fire-temple">ātaxš karkōy</placeName></place> abāz nišāt ud <persName><forename>ardašīr</forename> <addName type="patronymic">bābagān</addName></persName> šahrestān bun pad frazāmēnīd.</seg> 
+            <seg xml:id="p_38" xml:lang="pal" corresp="e_38">šahrestān <place><placeName type="city">zarang</placeName></place> naxust <persName><addName type="epithet" subtype="pejorative">gizistag</addName> <forename>frāsiyāg</forename> ī <addName type="origin"><rs type="ethnic">tūr</rs></addName></persName> kerd u-š warzāwand <place><placeName type="fire-temple">ātaxš karkōy</placeName></place> ānōh nišāst u-š <persName>manuščihr</persName> andar ō <place><geogName type="mountain-range">padišxwārgar</geogName></place> kerd u-š <persName>Spandarmad</persName> pad zanīh xwāst ud <persName>Spandarmad</persName> andar ō zamīg gumēxt šahrestān awērān kerd u-š <place><placeName ref="ātaxš karkōy">ātaxš</placeName></place> afsārd ud pas <persName><forename>kay-hu-sraw</forename> <addName type="patronymic">siyāwašān</addName></persName> šahrestān abāz kerd u-š <place><placeName type="fire-temple">ātaxš karkōy</placeName></place> abāz nišāt ud <persName><forename>ardašīr</forename> <addName type="patronymic">bābagān</addName></persName> šahrestān bun pad frazāmēnīd.</seg> 
             <seg xml:id="e_38" xml:lang="en" corresp="p_38">The city of Zarang was first built by the accursed Frāsiyāk, the Tūrānian, and established the miraculous Karkōy Fire there, and Manūčihr was (surrounded) in Padišxwargar, and (Frāsiyāk) asked Spandarmad as wife and Spandarmad mixed in the earth, (he) destroyed the city and he extinguished the fire, and then Kay Husraw, the son of Sīyāwaxš again built the city. And he again founded the Karkōy Fire, and Ardaxšīr, the son of Pābag finished the city.</seg></s>
         
         <s n="39">
@@ -203,7 +209,7 @@
             <seg xml:id="e_45" xml:lang="en" corresp="p_45">The city of Tūz was built by Humāy, the son of Čihr Āzād.</seg></s>
         
         <s n="46">
-            <seg xml:id="p_46" xml:lang="pal" corresp="e_46">šahrestān ī <place><placeName type="city">Ohrmazd ardašīrān</placeName></place> <interp>ud</interp> šahrestān ī <place><placeName type="city">rām-Ohrmazd</placeName></place> <persName><forename>Ohrmazd</forename> <addName type="nickname">nēw</addName> <addName type="patronymic">šāphrān</addName></persName> kerd.</seg>
+            <seg xml:id="p_46" xml:lang="pal" corresp="e_46">šahrestān ī <place><placeName type="city">Ohrmazd ardašīrān</placeName></place> <interp>ud</interp> šahrestān ī <place><placeName type="city">rām-Ohrmazd</placeName></place> <persName><forename>Ohrmazd</forename> <addName type="epithet" subtype="praise">nēw</addName> <addName type="patronymic">šāphrān</addName></persName> kerd.</seg>
             <seg xml:id="e_46" xml:lang="en" corresp="p_46">The city of Hormizd-Ardaxšīr and the city of Rām-Hormizd were built by Hormizd, the valiant, the son of Šābuhr.</seg></s>
         
         <s n="47">
@@ -219,7 +225,7 @@
             <seg xml:id="e_49" xml:lang="en" corresp="p_49">The city of Nahr-Tīrag was built during the evil reign of Aži Dahāg as a harem, and was the prison of Ērān-šahr, and it was called the prison of the Arsac.</seg></s>
 
         <s n="50">
-            <seg xml:id="p_50" xml:lang="pal" corresp="e_50">šahrestān <place><placeName type="city">simrān</placeName></place> <persName><forename>Frēdōn</forename> ī <addName type="patronynic">ādwēnān</addName></persName> kerd u-š <persName>maswar.<roleName type="king"><rs type="geographical">simrān-šā</rs></roleName></persName> ōzad u-š <place>zamīg ī <placeName type="city">simrān</placeName></place> abāz <term type="administrative-unit">xwēsīh</term> <place><placeName type="mega-region">Ērān šahr</placeName></place> āwurd u-š <place><placeName type="region">dašt <rs type="ethnicity">tāzīg</rs></placeName></place> pad <term type="administrative-unit">xwēsīh</term> ud ābādīh bē ō <persName><forename>baxt-hu-sraw</forename> ī <roleName type="king"><rs type="ethnic">tāzīg-šā</rs></roleName></persName> dād paywand dārišn ī xwēš ray.</seg> <!--STOPPED HERE-->
+            <seg xml:id="p_50" xml:lang="pal" corresp="e_50">šahrestān <place><placeName type="city">simrān</placeName></place> <persName><forename>Frēdōn</forename> ī <addName type="patronynic">ādwēnān</addName></persName> kerd u-š <persName><forename>maswar</forename>.<roleName type="king"><rs type="geographical">simrān-šā</rs></roleName></persName> ōzad u-š <place>zamīg ī <placeName type="city">simrān</placeName></place> abāz <term type="administrative-unit">xwēsīh</term> <place><placeName type="mega-region">Ērān šahr</placeName></place> āwurd u-š <place><placeName type="region">dašt <rs type="ethnicity">tāzīg</rs></placeName></place> pad <term type="administrative-unit">xwēsīh</term> ud ābādīh bē ō <persName><forename>baxt-hu-sraw</forename> ī <roleName type="king"><rs type="ethnic">tāzīg-šā</rs></roleName></persName> dād paywand dārišn ī xwēš ray.</seg> <!--STOPPED HERE-->
             <seg xml:id="e_50" xml:lang="en" corresp="p_50">The city of Himyār was built by Frēdōn, the son of Ādwēn. And he killed Masrugh, the king of Himyār, and he again brought the land of Himyār under the sovereignty of Ērān-šahr. And he gave the plain of the Arabs to Baxt Husraw, the king of the Arabs as his very own feud, on the account of the connection which he himself made with him.</seg></s> <!--how to tag kings?-->
         
         <s n="51">
@@ -227,11 +233,11 @@
             <seg xml:id="e_51" xml:lang="en" corresp="p_51">The city of Ārhēst was built by Šābuhr, the son of Ardaxšīr.</seg></s>
         
         <s n="52">
-            <seg xml:id="p_52" xml:lang="pal" corresp="e_52">šahrestān ī <place><placeName type="city">asūr</placeName></place> ud šahrestān ī <place><placeName type="city">weh-ardašīr</placeName></place> <persName><forename>[ardašīr]</forename> ī <addName type="patronymic">spandyādān</addName></persName> kerd. u-š <persName><forename>ōšag</forename> ī <addName type="origin"><rs type="geographical">hagar</rs></addName></persName> marzbān gund-gar ud burg-gar pad <place><geogName type="persian-gulf">war ī <rs type="ethnicity">tāzīgān</rs></geogName></place> bē gumārd.</seg> <!--i am confusion-->
+            <seg xml:id="p_52" xml:lang="pal" corresp="e_52">šahrestān ī <place><placeName type="city">asūr</placeName></place> ud šahrestān ī <place><placeName type="city">weh-ardašīr</placeName></place> <persName><forename>[ardašīr]</forename> ī <addName type="patronymic">spandyādān</addName></persName> kerd. u-š <persName><forename>ōšag</forename> ī <addName type="origin"><rs type="geographical">hagar</rs></addName></persName> marzbān gund-gar ud burg-gar pad <place><geogName type="water" ref="persian-gulf">war ī <rs type="ethnicity">tāzīgān</rs></geogName></place> bē gumārd.</seg> <!--i am confusion-->
             <seg xml:id="e_52" xml:lang="en" corresp="p_52">The city of Āsūr and the city of Weh-Ardaxšīr were built by Ardaxšīr, the son of Spandyād. And he appointed Ōšag, of Hagar as the margrave (over the) Dō-sar and Bor-gil by the wall of the Arabs.</seg></s>
-        
+        d
         <s n="53">
-            <seg xml:id="p_53" xml:lang="pal" corresp="e_53">šahrestān ī <place><placeName type="city">gay</placeName></place> gizistag <persName><forename>aleksandar</forename> ī <addName type="patronymic">flīpān</addName></persName> kerd <place><placeName type="residence"><term type="administrative-unit">mānīšn ī <rs type="ethnicity">yahūdān</rs></term></placeName></place> ānōh būd <interp>ī</interp> <date type="reign">pad xwadāyīh <interp>ī</interp> <persName><forename>yazdgird</forename> ī <addName type="patronymic">šāpuhrān</addName></persName></date> nīd az xwāhišn ī <persName><forename>šīšīnduxt</forename> <relation type="spouse">ī-š zan</relation></persName> būd .</seg> <!--what here refers to the jews?-->
+            <seg xml:id="p_53" xml:lang="pal" corresp="e_53">šahrestān ī <place><placeName type="city">gay</placeName></place> <persName><addName type="epithet" subtype="pejorative">gizistag</addName> <forename>aleksandar</forename> ī <addName type="patronymic">flīpān</addName></persName> kerd <place><placeName type="residence"><term type="administrative-unit">mānīšn ī <rs type="ethnicity">yahūdān</rs></term></placeName></place> ānōh būd <interp>ī</interp> <date type="reign">pad xwadāyīh <interp>ī</interp> <persName><forename>yazdgird</forename> ī <addName type="patronymic">šāpuhrān</addName></persName></date> nīd az xwāhišn ī <persName><forename>šīšīnduxt</forename> <relation type="spouse">ī-š zan</relation></persName> būd .</seg> <!--what here refers to the jews?-->
             <seg xml:id="e_53" xml:lang="en" corresp="p_53">The city of Gay was built by the accursed Alexander, the son of Philip. The dwelling of the Jews was there. During the reign of Yazdgird, the son of Šābuhr, (the Jews) were led there by the request of Šīšinduxṭ who was his wife.</seg></s> 
         
         <s n="54">
@@ -250,12 +256,14 @@
             <seg xml:id="p_57" xml:lang="pal" corresp="e_57">šahrestān ī <place><placeName type="city">wan</placeName></place> <persName><forename>wan</forename> ī <addName type="patronymic">gulaxšān</addName></persName> kerd ud pad <relation type="spouse">zanīh ō <persName ref="wan" relation="spouse">kay-kawād</persName></relation> mad  ud <place><placeName type="fortress">drubuštīh</placeName></place> arwand-asp <interp>ī</interp> tūr ī brād-rōš ī karb pad ǰādūgīh kerd pānagīh ī gyān xwēš rāy.</seg> <!--confusion-->
             <seg xml:id="e_57" xml:lang="en" corresp="p_57">The city of Wan was built by Wan, the daughter of Gulaxšān and became married to Kay Kawād, and the fortification of Arwandāsp was built by Tūr, the son Brātrēš the Karp by sorcery as a place of protection for his own life.</seg></s> 
         
+        <direction orig="In the Northern direction" reg="quarter of the northwest"/>
+        
         <s n="58">
-            <seg xml:id="p_58" xml:lang="pal" corresp="e_58">pad kust <place><geogName type="direction">ādurbādagān</geogName></place> šahrestān ī <place><placeName type="city">ganzag</placeName></place> <persName><forename>frāsiyāg</forename> <addName type="patronymic">tūr</addName></persName> kerd.</seg>
-            <seg xml:id="e_58" xml:lang="en" corresp="p_58">In the direction of Ādurbādagān <!--is this the Northern Direction?-->, the City of Ganzag was built by Frāsiyāk, the son of Tūr.</seg></s>
+            <seg xml:id="p_58" xml:lang="pal" corresp="e_58">pad kust <place><geogName type="direction" subtype="quarter of the northwest">ādurbādagān</geogName></place> šahrestān ī <place><placeName type="city">ganzag</placeName></place> <persName><forename>frāsiyāg</forename> <addName type="patronymic">tūr</addName></persName> kerd.</seg> <!--why do all previous mentions of frāsiyāg get translated as "frāsiyāg the Turanian" instead of "frāsiyāg son of Tur"?-->
+            <seg xml:id="e_58" xml:lang="en" corresp="p_58">In the direction of Ādurbādagān <!--weird to not write the Northern Direction, when every previous instance had a cardinal direction as a translation-->, the City of Ganzag was built by Frāsiyāk, the son of Tūr.</seg></s>
         
         <s n="59">
-            <seg xml:id="p_59" xml:lang="pal" corresp="e_59">šahrestān ī <place><placeName type="city">āmōγ</placeName></place> <persName><roleName type="religious">zandīg</roleName> <seg type="characterization">ī purr-marg</seg></persName> kerd. <persName><forename>Zardušt</forename> ī <addName type="patronymic">Spitāmān</addName></persName> az ān šahrestān būd.</seg>
+            <seg xml:id="p_59" xml:lang="pal" corresp="e_59">šahrestān ī <place><placeName type="city">āmōγ</placeName></place> <persName><roleName type="religious">zandīg</roleName> <addName type="epithet" subtype="pejorative">ī purr-marg</addName></persName> kerd. <persName><forename>Zardušt</forename> ī <addName type="patronymic">Spitāmān</addName></persName> az ān šahrestān būd.</seg>
             <seg xml:id="e_59" xml:lang="en" corresp="p_59">The city of Āmol was built by the heretic who is full of death. Zoroaster, the son of Spitāmān was from that city.</seg></s>
         
         <s n="60">
