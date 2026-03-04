@@ -49,11 +49,11 @@
             <seg xml:id="e_6" xml:lang="en" corresp="p_6">Sogdiana (has) seven abodes, its having seven abodes in it means that there were seven Lords in it. One belonging to Jam and one to Aži Dahāg and one to Frēdōn and one to Manūčihr and one to Kāus and one to Lohrāsp and one to king Wištāsp.</seg></s>
         
         <s n="7">
-            <seg xml:id="p_7" xml:lang="pal" corresp="e_7">pas <persName><addName type="epithet" subtype="pejorative">gizistag</addName> <forename>frāsiyāg</forename> ī <addName type="origin"><rs type="ethnic">tūr</rs></addName></persName> harw ēk nišēmag ī šāhān uzdes-zār-ēw bašn padiš kard.</seg> <!--which word is idol temple and heathen temple-->
+            <seg xml:id="p_7" xml:lang="pal" corresp="e_7">pas <persName><addName type="epithet" subtype="pejorative">gizistag</addName> <forename>frāsiyāg</forename> ī <addName type="origin"><rs type="ethnic">tūr</rs></addName></persName> harw ēk <place><placeName type="residence-of-demons">nišēmag ī šāhān</placeName></place> <place><placeName type="idol-temple">uzdes-zār-ēw</placeName></place> <place><placeName type="heathen-temple">bašn</placeName></place> padiš kard.</seg> <!--which word is idol temple and heathen temple-->
             <seg xml:id="e_7" xml:lang="en" corresp="p_7">Then the accursed Frāsiyāk, the Tūrānian, made seats for each of the demons, and an idol temple and a heathen temple.</seg></s>
         
         <s n="8">
-            <seg xml:id="p_8" xml:lang="pal" corresp="e_8">andar <place><placeName type="region">baxl</placeName></place> ī bāmīg šahrestān<interp>ī</interp> <place><placeName type="city">nawāzag</placeName></place> <persName><forename>spandyād</forename> ī <addName type="patronymic">wištāspān</addName></persName> kerd.</seg>
+            <seg xml:id="p_8" xml:lang="pal" corresp="e_8">andar <place><placeName type="region">baxl ī <addName type="epithet" subtype="praise">bāmīg</addName></placeName></place> šahrestān<interp>ī</interp> <place><placeName type="city">nawāzag</placeName></place> <persName><forename>spandyād</forename> ī <addName type="patronymic">wištāspān</addName></persName> kerd.</seg>
             <seg xml:id="e_8" xml:lang="en" corresp="p_8">In the brilliant Balx, the city of Nawāzag was built by Spandyād, the son of Wištāsp.</seg></s>
         
         <s n="9">
@@ -69,7 +69,7 @@
             <seg xml:id="e_11" xml:lang="en" corresp="p_11">The city of Marv-rōd was built by Wahrām, the son of Yazdgerd.</seg></s>
         
         <s n="12">
-            <seg xml:id="p_12" xml:lang="pal" corresp="e_12">šahrestān ī <place><placeName type="city">marw</placeName></place> ud sahrestān<interp>ī</interp> <place><placeName type="city">harē</placeName></place> <persName><addName type="epithet" subtype="pejorative">gizistag</addName> <forename>skandar</forename> ī <addName type="origin"><rs type="ethnic">harōmīg</rs></addName></persName> kerd.</seg>
+            <seg xml:id="p_12" xml:lang="pal" corresp="e_12">šahrestān ī <place><placeName type="city">marw</placeName></place> ud sahrestān<interp>ī</interp> <place><placeName type="city">harē</placeName></place> <persName><addName type="epithet" subtype="pejorative">gizistag</addName> <forename>skandar</forename> ī <addName type="epithet" subtype="neutral"><rs type="ethnic">harōmīg</rs></addName></persName> kerd.</seg>
             <seg xml:id="e_12" xml:lang="en" corresp="p_12">The city of Marv and the city of Herāt were built by the accursed Alexander the Roman.</seg></s>
         
         <s n="13">
