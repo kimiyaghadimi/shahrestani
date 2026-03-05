@@ -37,7 +37,7 @@
         <!--how to properly reference the dads? I decided on forename and addName-->
         
         <s n="4">
-            <seg xml:id="p_4" xml:lang="pal" corresp="e_4">pas <persName type="prophet">Zardušt</persName> dēn āwurd az framān <interp>ī</interp> <persName><roleName type="king">wištāsp-šā</roleName></persName> <num value="1200">hazār ud dō-sad</num> <term type="chapter">fragard</term> pad dēn-dibīrīh pad taxtagīhā <interp>ī</interp> zarrēn kand ud nibišt ud pad ganǰ<interp>ī</interp> ān <place><placeName type="fire-temple">ātaxš</placeName></place> nihād.</seg> 
+            <seg xml:id="p_4" xml:lang="pal" corresp="e_4">pas <persName type="prophet">Zardušt</persName> dēn āwurd az framān <interp>ī</interp> <persName><roleName type="king">wištāsp-šā</roleName></persName> <num value="1200">hazār ud dō-sad</num> <term type="chapter">fragard</term> pad dēn-dibīrīh pad taxtagīhā <interp>ī</interp> zarrēn kand ud nibišt ud pad <place><placeName type="fire-temple" subtype="treasury ref="ātaxš-wahrām">ganǰ<interp>ī</interp> ān ātaxš</placeName></place> nihād.</seg> 
             <seg xml:id="e_4" xml:lang="en" corresp="p_4">Then Zoroaster brought the Religion. By the order of king Wištāsp 1200 fragard (chapters) in the script of religious scripture were engraved on golden tablets and written and deposited in the treasury of that fire-(temple).</seg></s>
         
         <s n="5">
@@ -229,7 +229,7 @@
             <seg xml:id="e_50" xml:lang="en" corresp="p_50">The city of Himyār was built by Frēdōn, the son of Ādwēn. And he killed Masrugh, the king of Himyār, and he again brought the land of Himyār under the sovereignty of Ērān-šahr. And he gave the plain of the Arabs to Baxt Husraw, the king of the Arabs as his very own feud, on the account of the connection which he himself made with him.</seg></s> <!--how to tag kings?-->
         
         <s n="51">
-            <seg xml:id="p_51" xml:lang="pal" corresp="e_51">šhrestān ī <place><placeName type="city">ārēst</placeName></place> <persName><forename>šāpuhr</forename> ī <addName type="patronymic">ardašīrān</addName></persName> kerd.</seg>
+            <seg xml:id="p_51" xml:lang="pal" corresp="e_51">šahrestān ī <place><placeName type="city">ārēst</placeName></place> <persName><forename>šāpuhr</forename> ī <addName type="patronymic">ardašīrān</addName></persName> kerd.</seg>
             <seg xml:id="e_51" xml:lang="en" corresp="p_51">The city of Ārhēst was built by Šābuhr, the son of Ardaxšīr.</seg></s>
         
         <s n="52">
