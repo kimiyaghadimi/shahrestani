@@ -39,3 +39,10 @@ nav{
 .nav-links a:hover {
     color: darkred;
 }
+
+.center-image {
+    display: block;
+    margin: 40px auto;
+    max-width: 80%;
+    height: auto;
+}
