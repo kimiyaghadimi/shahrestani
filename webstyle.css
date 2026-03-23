@@ -20,3 +20,22 @@ h3{
 /*    font-weight: bold;
     color: #222;*/
 }
+
+nav{
+    padding: 20px;
+    border-bottom: 1px solid;
+    background-color: #329ea8;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;  
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a:hover {
+    color: darkred;
+}
