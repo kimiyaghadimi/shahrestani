@@ -25,7 +25,7 @@
             <seg xml:id="p_1" xml:lang="pal" corresp="e_1"> šahr<interp>est</interp>ānīhā ī andar zamīg ī <place><placeName type="mega-region">Ērān-šahr</placeName></place> kerd estēd ǰud ǰud būm kū kadām <roleName type="overlord">sar-xwadāy</roleName> kerd pad gōkān abar ēn ayādgār nibišt estēd.</seg>
             <seg xml:id="e_1" xml:lang="en" corresp="p_1">The cities in the land of Ērān-šahr which have been built in different days, where and which overlord made them is written in detail in this memoir.</seg></s>
         
-        <direction orig="In the Eastern direction" reg="quarter of the northeast"/>
+<!--        <direction orig="In the Eastern direction" reg="quarter of the northeast"/>-->
         
         <s n="2">
             <seg xml:id="p_2" xml:lang="pal" corresp="e_2"><place><geogName type="direction" subtype="quarter of the northeast">pad kust ī xwarāsān</geogName></place> <!--Isn't this Khorasan?--> <place><placeName type="city">samarkand</placeName></place> šahrestān <persName><forename>kay-us</forename> ī <addName type="patronymic">kawādān</addName></persName> bun fragand <persName><forename>siyāwaxš</forename> ī <addName type="patronymic">kay-usān</addName></persName> bē frazāmēnīd.</seg>
@@ -106,7 +106,7 @@
             <seg xml:id="p_20" xml:lang="pal" corresp="e_20">u-š frasp-ēw kē ē <measure num="180" unit="frasang">sad ud haštād frasang</measure> drahnāy ud <measure num="25" unit="šāh-ārešn">wīst <interp>ud</interp> panǰ šāh-ārešn</measure> bālā ē <measure num="180" unit="palace-gates">sad ud haštād dar kōšk<interp>ud</interp></measure> <place><placeName type="estate">dastgird</placeName></place> andar framūd kerdan.</seg>
             <seg xml:id="e_20" xml:lang="en" corresp="p_20">He ordered the establishment of a wall 180 farsang(s) long and 25 royal cubit(s) high, 180 palace gates and ordered in it the establishment of an estate.</seg></s>
         
-        <direction orig="In the Western direction" reg="quarter of the southwest"/>
+<!--        <direction orig="In the Western direction" reg="quarter of the southwest"/>-->
         
         <s n="21">
             <seg xml:id="p_21" xml:lang="pal" corresp="e_21"><place><geogName type="direction" subtype="quarter of the southwest">pad kust<interp>ī</interp> xwarwarān</geogName></place> <!--what is xwarwarān--> šahrestān ī <place><placeName type="city">tīsifōn</placeName></place> az framān ī <persName><forename>tūs</forename> <addName type="patronymic">warāzag</addName> ī <addName type="family">gēwagān</addName></persName> kerd.</seg>
@@ -160,7 +160,7 @@
             <seg xml:id="p_33" xml:lang="pal" corresp="e_33"><num value="24">wīst čahār</num> šahrestān andar zamīg <place><placeName type="region">šām</placeName></place> <interp>ud</interp> <place><placeName type="region">frīgā</placeName></place> ud <place><placeName type="city">kufah</placeName></place> ud <place><placeName type="city">makkah</placeName></place> ud <place><placeName type="city">madīnag</placeName></place> gāh kerd estēd ast <roleName type="king">šāhān šāh</roleName> ast <persName>kēsar</persName>.</seg>
             <seg xml:id="e_33" xml:lang="en" corresp="p_33">The 24 cities which were built in the land of Syria and Yemen and Africa and Kufa and Mecca and Medina, some were built by the King of Kings and (some built) by the Caesar.</seg></s>
         
-        <direction orig="In the Southern direction" reg="quarter of the southeast"/>
+<!--        <direction orig="In the Southern direction" reg="quarter of the southeast"/>-->
         
         <s n="34">
             <seg xml:id="p_34" xml:lang="pal" corresp="e_34"><place><geogName type="direction" subtype="quarter of the southeast">pad kust nēmrōz</geogName></place> šahrestān ī <place><placeName type="city">kābul</placeName></place> <persName><forename>ardašīr</forename> ī <addName type="patronymic">spandyādān</addName></persName> kerd estēd.</seg>
@@ -258,7 +258,7 @@
             <seg xml:id="p_57" xml:lang="pal" corresp="e_57">šahrestān ī <place><placeName type="city">wan</placeName></place> <persName><forename>wan</forename> ī <addName type="patronymic">gulaxšān</addName> kerd ud pad <relation type="wife" ref="wan">zanīh ō <persName>kay-kawād</persName></relation></persName> mad  ud <place><placeName type="fortress">drubuštīh arwand-asp</placeName></place> <interp>ī</interp> <persName><forename>tūr</forename> ī <addName type="patronymic">brād-rōš</addName> ī <roleName type="priest">karb</roleName></persName> pad ǰādūgīh kerd pānagīh ī gyān xwēš rāy.</seg> <!--confusion-->
             <seg xml:id="e_57" xml:lang="en" corresp="p_57">The city of Wan was built by Wan, the daughter of Gulaxšān and became married to Kay Kawād, and the fortification of Arwandāsp was built by Tūr, the son of Brātrēš the Karp by sorcery as a place of protection for his own life.</seg></s> 
         
-        <direction orig="In the Northern direction" reg="quarter of the northwest"/>
+<!--        <direction orig="In the Northern direction" reg="quarter of the northwest"/>-->
         
         <s n="58">
             <seg xml:id="p_58" xml:lang="pal" corresp="e_58">pad kust <place><geogName type="direction" subtype="quarter of the northwest">ādurbādagān</geogName></place> šahrestān ī <place><placeName type="city">ganzag</placeName></place> <persName><forename>frāsiyāg</forename> <addName type="patronymic">tūr</addName></persName> kerd.</seg> <!--why do all previous mentions of frāsiyāg get translated as "frāsiyāg the Turanian" instead of "frāsiyāg son of Tur"?-->
