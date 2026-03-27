@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body>
-    <title>Šahrestānīhā ī Ērān šahr</title>
+<!--    <title>Šahrestānīhā ī Ērān šahr</title>-->
 
 
     <title>
-        <seg xml:id="tp_1" xml:lang="pal" corresp="te_1">[šahr<interp>estān</interp>īhā ī ērān]</seg>
+        <seg xml:id="tp_1" xml:lang="pal" corresp="te_1"><!--[šahr<interp>estān</interp>īhā ī ērān]-->Šahrestānīhā ī Ērān šahr</seg>
         <seg xml:id="te_1" xml:lang="en" corresp="tp_1">The Provincial Capitals of Ērān-šahr</seg>
     </title>
 
@@ -275,10 +275,10 @@
     </text>
     <trailer>
         <lg>
-            <l>
+            <l n="1">
                 <seg xml:id="tp_1" xml:lang="pal" corresp="te_1">pad pērōzīh āwišt.</seg>
                 <seg xml:id="te_1" xml:lang="en" corresp="tp_1">Sealed with victory.</seg></l> 
-            <l>.
+            <l n="2">.
                 <seg xml:id="tp_2" xml:lang="pal" corresp="te_2">frazaft pad drōd šādīh rāmišn.</seg>
                 <seg xml:id="te_2" xml:lang="en" corresp="tp_2">Finished with prosperity, happiness and peace.</seg></l>
         </lg>

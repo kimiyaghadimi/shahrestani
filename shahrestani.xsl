@@ -29,32 +29,151 @@
                     <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
-            <h1>Texts</h1>
-            <ul><xsl:apply-templates select="//body//s"/></ul>
+<!--            <h1>Text</h1>-->
+            <ul><xsl:apply-templates select="//body"/></ul>
         </body>
         </html>
     </xsl:template>
+
+    <xsl:template match="title">
+        <h2>Title <xsl:value-of select="@n"/></h2>
+            <ul>
+                <li>
+                    <strong>Pahlavi:</strong>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="seg[@xml:lang='pal']"/>
+                </li>
+                <li>
+                    <strong>English:</strong>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="seg[@xml:lang='en']"/>
+                </li>
+            </ul>
+    </xsl:template>
+
+<!--    <xsl:template match="head/lg/l">
+<!-\-        <xsl:if test="@n = 1">
+            <h2>Introduction:</h2>
+        </xsl:if>-\->
+        <div class="line" id="line-{@n}">
+            <div class="line-number">
+                <strong>Line <xsl:value-of select="@n"/></strong>
+            </div>
+            <div class="pahlavi">
+                <strong>Pahlavi:</strong>
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="seg[@xml:lang='pal']"/>
+            </div>
+            <div class="english">
+                <strong>English:</strong>
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="seg[@xml:lang='en']"/>
+            </div>
+        </div>
+    </xsl:template>-->
     
-<!-- <xsl:template match="s">
-            <line id="{@n}"><xsl:apply-templates/></line>
-</xsl:template>-->
-    
-    <xsl:template match="s">
+    <xsl:template match="head/lg/l">
+        <xsl:if test="@n = 1">
+            <h2>Introduction:</h2>
+        </xsl:if>
         <li>
-            <xsl:value-of select="count(preceding-sibling::*)+1"/>
-            <span id="{@n}"><xsl:apply-templates/></span>
+            <strong>Line <xsl:value-of select="@n"/></strong>
+            <ul>
+                <li>
+                    <strong>Pahlavi:</strong>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="seg[@xml:lang='pal']"/>
+                </li>
+                <li>
+                    <strong>English:</strong>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="seg[@xml:lang='en']"/>
+                </li>
+            </ul>
         </li>
     </xsl:template>
     
-    <xsl:template match="seg">
-        <span lang="{@xml:lang}"><xsl:apply-templates/></span>
-    </xsl:template>
-    
- <!--   <xsl:template match="span[@lang=en]">
-        English:
+<!--    <xsl:template match="s">
+        <xsl:if test="@n = 1">
+            <h2>Body:</h2>
+        </xsl:if>
+        <div class="sentence" id="s-{@n}">
+            <div class="sentence-number">
+                <strong>Sentence <xsl:value-of select="@n"/>:</strong>
+            </div>
+            <div class="pahlavi">
+                <strong>Pahlavi:</strong>
+                <xsl:text> </xsl:text>
+                <xsl:apply-templates select="seg[@xml:lang='pal']"/>
+            </div>
+            <div class="english">
+                <strong>English:</strong>
+                <xsl:text> </xsl:text>
+                <xsl:apply-templates select="seg[@xml:lang='en']"/>
+            </div>
+        </div>
     </xsl:template>-->
     
-    <xsl:template match="interp">
-        <strong><xsl:apply-templates/></strong>
+    <xsl:template match="s">
+        <xsl:if test="@n = 1">
+            <h2>Body:</h2>
+        </xsl:if>
+        <li>
+            <strong>Sentence <xsl:value-of select="@n"/></strong>
+            <ul>
+                <li>
+                    <strong>Pahlavi:</strong>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="seg[@xml:lang='pal']"/>
+                </li>
+                <li>
+                    <strong>English:</strong>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="seg[@xml:lang='en']"/>
+                </li>
+            </ul>
+        </li>
+    </xsl:template>
+    
+<!--    <xsl:template match="trailer/lg/l">
+        <xsl:if test="@n = 1">
+            <h2>Conclusion:</h2>
+        </xsl:if>
+        <div class="line" id="line-{@n}">
+            <div class="line-number">
+                <strong>Line <xsl:value-of select="@n"/></strong>
+            </div>
+            <div class="pahlavi">
+                <strong>Pahlavi:</strong>
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="seg[@xml:lang='pal']"/>
+            </div>
+            <div class="english">
+                <strong>English:</strong>
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="seg[@xml:lang='en']"/>
+            </div>
+        </div>
+    </xsl:template>-->
+    
+    <xsl:template match="trailer/lg/l">
+        <xsl:if test="@n = 1">
+            <h2>Conclusion:</h2>
+        </xsl:if>
+        <li>
+            <strong>Line <xsl:value-of select="@n"/></strong>
+            <ul>
+                <li>
+                    <strong>Pahlavi:</strong>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="seg[@xml:lang='pal']"/>
+                </li>
+                <li>
+                    <strong>English:</strong>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="seg[@xml:lang='en']"/>
+                </li>
+            </ul>
+        </li>
     </xsl:template>
 </xsl:stylesheet>
