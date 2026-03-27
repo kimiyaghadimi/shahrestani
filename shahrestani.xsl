@@ -36,7 +36,7 @@
     </xsl:template>
 
     <xsl:template match="title">
-        <h2>Title <xsl:value-of select="@n"/></h2>
+        <h2>Title: <xsl:value-of select="@n"/></h2>
             <ul>
                 <li>
                     <strong>Pahlavi:</strong>
